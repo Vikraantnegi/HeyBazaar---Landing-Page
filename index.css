@@ -1,0 +1,252 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:20px;
+    letter-spacing: 0px;
+    color: black;
+    background-color : #F7F6FC;
+    padding: 0px;
+    overflow-x: hidden;
+    z-index: 0;
+}
+
+a {
+    text-decoration: none;
+}
+  
+a:hover, a:focus {
+    text-decoration: none;
+}
+  
+.row.m0 {
+    margin: 0px;
+}
+  
+.p0 {
+    padding: 0px;
+}
+
+a, .btn, button {
+    text-decoration: none;
+    outline: none;
+}
+  
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+  
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.mb-20{
+    margin-bottom:20px;
+}
+
+.container{
+    margin: 30px 40px 0px 40px;
+}
+.main{
+    margin: 30px 40px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: baseline;   
+}
+.right i{
+    margin-right: 10px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+#search input[type="text"] {
+    font-size: 40px;
+    font-weight: 300;
+    width: 75%;
+    border: 0 none;
+    color: #777;
+    padding: 30px 20px 30px 100px;
+    border-radius: 30px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    transition: all 0.7s ease 0s;
+}
+
+#search input[type="text"]:focus {
+    outline: 0;
+    border: 0;
+}
+
+#search i { 
+    position: absolute; 
+} 
+  
+#search { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 20px; 
+    font-size:60px;
+}
+  
+.search-box { 
+    width: 100%; 
+    padding: 10px;
+} 
+
+.filters{
+    height: 100px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #6C5CFF;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transform: rotate(-90deg);
+}
+
+.fa{
+    font-weight: 300 !important;
+}
+
+.fa-sliders-h{
+    color: white;
+    font-size: 50px;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories .category{
+    width: 20%;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.categories img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+}
+
+.categories span{
+    color: gray;
+    font-size: 30px;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.shop{
+    display: flex;
+    justify-content: space-between;   
+    box-sizing: border-box;
+    background-color: white; 
+    height: 210px;
+    border-radius: 40px;
+    padding-right: 40px;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+}
+.shop img{
+    border-radius: 40px;
+    width: 27%;
+    height: 100%;
+}
+.shop .info{
+    width: 46%; 
+    margin-right: 5px; 
+    padding: 5px 0;  
+}
+.shop .heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.shop .info1{
+    font-size: 24px;
+    margin: 15px 0px;
+    color: gray;
+}
+.shop .offers{
+    font-size: 24px;
+    margin: 20px 0px;
+    font-weight: 700;
+    color: #6C5CFF;
+}
+.shop .dist{
+    font-size: 24px;
+    margin-bottom:20px;
+    margin-top: 35px;
+    color: gray;
+    text-align: right;
+}
+.shop .time{
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom:20px;
+    color: gray;
+    text-align: right;
+}
+.shop .rating{
+    margin-top: 35px;
+    font-size: 24px;
+    color: #ccc;
+}
+.shop .rating .col{
+    color: #6C5CFF;
+}
+
+footer{    
+    background-color: #6C5CFF;
+    height: 200px;
+    width: 100vw;
+}
+
+footer .tabs{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+footer .tab{
+    width: 150px;
+    height: 150px;    
+    text-align: center;
+}
+
+footer .tab .white{
+    color: white;
+    font-size: 60px;
+}
+
+footer .active{
+    background-color: white;
+    border-radius: 50%;
+    margin-top : -70px;
+}
+
+footer .active .white{
+    padding: 25px;
+    color: black;
+    font-size: 80px;
+}
